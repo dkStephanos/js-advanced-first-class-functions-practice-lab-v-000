@@ -20,3 +20,11 @@ function driversByRevenue(drivers) {
 
   return sortedDrivers
 }
+
+function driversByName(drivers) {
+  sortedDrivers = [...drivers].sort(function (a, b) {
+    return a.localeCompare(b)
+  });
+
+  return sortedDrivers
+}
