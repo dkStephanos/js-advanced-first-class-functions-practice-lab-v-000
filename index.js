@@ -28,3 +28,9 @@ function driversByName(drivers) {
 
   return sortedDrivers
 }
+
+function totalRevenue(drivers) {
+  totalRevenue = drivers.reduce(function (agg, el, i, arr) {
+    return agg + el.price
+  }, 0);
+}
