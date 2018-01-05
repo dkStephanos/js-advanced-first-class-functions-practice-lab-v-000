@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function logDriverNames(drivers) {
   for(const driver in drivers) {
-    Console.log(driver.name)
+    console.log(driver.name)
   }
 }
